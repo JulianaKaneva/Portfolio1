@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.tech{
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+}
+
+#im{
+	margin: 50px;
+	width: 400px;
+	height: 500px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+	background: url(../img/1.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+button{
+	margin: 30px;
+	font-size: 30px;
+	color: white;
+	background:  linear-gradient(45deg, blue, purple);
+	border: none;
+	border-radius: 5px;
+	padding: 10px 30px;
+}
+
+button:hover{
+	transform: scale(1.02);
+}
